@@ -1,0 +1,166 @@
+body, div, ul, li, a, img, p, table, thead, tfoot, tr, td, th{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: 微软雅黑;
+    background-color: #dedede;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+}
+.logo{
+    float: left;
+    width: 123px;
+    height: 40px;
+    margin:10px 0px 10px 40px;
+    background: url("img/bd_logo.png") no-repeat;
+}
+.nav .nav_list{
+    float:right;
+    margin: 10px 20px 10px 0;
+}
+
+.nav_list li{
+    float: left;
+    height: 40px;
+    line-height:40px;
+    margin-right: 20px;
+    color:#000;
+    list-style: none;
+}
+
+.nav_list li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.contain{
+    padding: 20px;
+    background-color: #dedede;
+    border: 1px slategray;
+}
+
+article{
+    background-color: white;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px #999;
+}
+article ul{
+    list-style: none;
+}
+.subtitle, .author{
+    color: gray;
+}
+.author{
+    font-size: smaller;
+}
+.main_text{
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 28px;
+}
+.main_text .tabgo{
+    text-indent: 2em;
+}
+
+.main_text img{
+    margin-top: 10px;
+}
+
+.main_text ul{
+    margin-left: 40px;
+    list-style: none;
+}
+
+article ul .pic{
+    width: 140px;
+    height: 160px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.pic p{
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.pic img{
+    height: 100px;
+    width: 100px;
+}
+
+.main_text table{
+    width: 100%;
+}
+.main_text table thead{
+    background-color: #454545;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+    margin-right: 2px;
+}
+.main_text table tfoot {
+    background: #ccc;
+}
+
+.sidebar_title {
+    border-left: 4px solid #ccc;
+    padding-left: 8px;
+}
+.text_field {
+    width: 400px;
+    margin: 30px auto;
+}
+.submit_field {
+    height: 40px;
+    background: blue;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+}
+.form_info .text_field {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.form_info .form_group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form_info .form_group .group_name{
+    text-align: right;
+    width: 150px;
+    display: inline-block;
+}
+.form_info .form_group .group_value, .form_info .text_field p{
+    width: 240px;
+    display: inline-block;
+
+}
+.form_info .text_field p {
+    text-align: left;
+    width: 244px;
+    float: right;
+    color: #ccc;
+}
+.form_info .tip {
+    text-align: right;
+}
+.footer {
+    height: 70px;
+    color: #fff;
+    background-color: #000;
+    line-height: 70px;
+    text-align: center;
+}
